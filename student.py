@@ -2,9 +2,9 @@ import numpy as np
 
 
 class Student():
-    def __init__(self):
-        self.name = "Przemysław"
-        self.surname = "Stokłosa"
+    def __init__(self, name, surname):
+        self.name = name
+        self.surname = surname
         self.id = np.random.randint(0, 1000)
 
     def print(self):
