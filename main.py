@@ -7,5 +7,7 @@ if __name__ == '__main__':
     students = []
 
     for i in range(100):
-        students.append(Student)
+        students.append(Student())
 
+    for student in students:
+        student.print()
