@@ -1,6 +1,7 @@
 from square import Square
 from student import Student
 
+
 def students():
     print("Programowanie obiektowe")
 
@@ -14,7 +15,13 @@ def students():
 
 
 if __name__ == '__main__':
-    kwadrat = Square(100.0)
-    kwadrat.print()
+    kwadrat1 = Square(10.0)
+    kwadrat2 = Square(5.0)
 
-    print(f"pole powierzchni: {kwadrat.area()}")
+    kwadrat1.print()
+
+    print(f"pole powierzchni: {kwadrat1.area()}")
+
+    kwadrat3 = kwadrat1 + kwadrat2
+
+    kwadrat3.print()

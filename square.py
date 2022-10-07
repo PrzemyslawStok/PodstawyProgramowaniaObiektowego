@@ -7,3 +7,7 @@ class Square():
 
     def area(self) -> float:
         return self.size * self.size
+
+    def __add__(self, other):
+        newSize = self.size + other.size
+        return Square(newSize)
