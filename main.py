@@ -4,6 +4,8 @@ import numpy as np
 if __name__ == '__main__':
     print("Programowanie obiektowe")
 
-    student1 = Student()
+    students = []
 
-    student1.print()
+    for i in range(100):
+        students.append(Student)
+
