@@ -1,7 +1,7 @@
+from square import Square
 from student import Student
-import numpy as np
 
-if __name__ == '__main__':
+def students():
     print("Programowanie obiektowe")
 
     students = []
@@ -11,3 +11,10 @@ if __name__ == '__main__':
 
     for student in students:
         student.print()
+
+
+if __name__ == '__main__':
+    kwadrat = Square(100.0)
+    kwadrat.print()
+
+    print(f"pole powierzchni: {kwadrat.area()}")
