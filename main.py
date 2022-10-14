@@ -20,8 +20,6 @@ if __name__ == '__main__':
 
     kwadrat1.print()
 
-    print(f"pole powierzchni: {kwadrat1.area()}")
-
     kwadrat3 = kwadrat1 + kwadrat2
 
     kwadrat3.print()
