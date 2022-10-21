@@ -9,3 +9,7 @@ class Teacher(Person):
 
     def __str__(self):
         return f"Teacher<Imię: {self.name} Nazwisko: {self.surname}>"
+
+    def f0(self):
+        for i in range(10):
+            self.print()

@@ -9,3 +9,7 @@ if __name__ == "__main__":
     print(student0)
     print(teacher0)
 
+    student0.print()
+    teacher0.print()
+
+    teacher0.f0()
