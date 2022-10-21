@@ -1,10 +1,11 @@
 import numpy as np
 
+from person import Person
 
-class Teacher():
+
+class Teacher(Person):
     def __init__(self, name="", surname=""):
-        self.name = name
-        self.surname = surname
+        super().__init__(name, surname)
 
     def __str__(self):
         return f"Teacher<Imię: {self.name} Nazwisko: {self.surname}>"

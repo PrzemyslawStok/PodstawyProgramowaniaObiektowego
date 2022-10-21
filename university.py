@@ -9,5 +9,3 @@ if __name__ == "__main__":
     print(student0)
     print(teacher0)
 
-    person0 = Person(name="Przemysław", surname="Stokłosa")
-    print(person0)
