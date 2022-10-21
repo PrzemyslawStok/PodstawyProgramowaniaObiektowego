@@ -13,8 +13,7 @@ def students():
     for student in students:
         student.print()
 
-
-if __name__ == '__main__':
+def simpleGeometry():
     kwadrat1 = Square(10.0)
     kwadrat2 = Square(5.0)
 
@@ -27,3 +26,6 @@ if __name__ == '__main__':
     print(kwadrat1)
     print(kwadrat2)
     print(kwadrat3)
+
+if __name__ == '__main__':
+   students()
