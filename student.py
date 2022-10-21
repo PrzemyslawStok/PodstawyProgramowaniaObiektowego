@@ -1,10 +1,11 @@
 import numpy as np
 
+from person import Person
 
-class Student():
+class Student(Person):
     def __init__(self, name="", surname=""):
-        self.name = name
-        self.surname = surname
+        super().__init__(name, surname)
+
         self.id = np.random.randint(0, 1000)
 
     def __str__(self):
