@@ -11,3 +11,6 @@ class Square():
     def __add__(self, other):
         newSize = self.a + other.a
         return Square(newSize)
+
+    def __str__(self):
+        return "Square"

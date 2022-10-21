@@ -23,3 +23,7 @@ if __name__ == '__main__':
     kwadrat3 = kwadrat1 + kwadrat2
 
     kwadrat3.print()
+
+    print(kwadrat1)
+    print(kwadrat2)
+    print(kwadrat3)
