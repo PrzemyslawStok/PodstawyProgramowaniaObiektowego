@@ -4,15 +4,18 @@ from teacher import Teacher
 
 
 def add_students(students_list: list, no_students: int):
-    pass
+    for i in range(no_students):
+        students_list.append(Student("Przemyslaw", f"Stokłosa_{i}"))
 
 
 def add_teachers(teachers_list: list, no_teachers: int):
     pass
 
 
-def printUniversity():
-    pass
+def printUniversity(university_name: str, students_list: list, teachers_list: list):
+    print(f"Nazwa uczelni: {university_name}")
+    print("Lista nauczycieli: ")
+
 
 if __name__ == "__main__":
     university_name = "WSIZ"
@@ -24,3 +27,5 @@ if __name__ == "__main__":
 
     add_students(students_list, no_students)
     add_teachers(teachers_list, no_teachers)
+
+    printUniversity(university_name, students_list, teachers_list)
