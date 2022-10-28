@@ -13,3 +13,6 @@ if __name__ == "__main__":
     teacher0.print()
 
     teacher0.f0()
+    #student0.f0()
+
+    print(student0())
