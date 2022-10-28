@@ -2,11 +2,9 @@ from person import Person
 from student import Student
 from teacher import Teacher
 
-
 def add_students(students_list: list, no_students: int):
     for i in range(no_students):
         students_list.append(Student("Piotr", f"Stokłosa_{i}"))
-
 
 def add_teachers(teachers_list: list, no_teachers: int):
     for i in range(no_teachers):
