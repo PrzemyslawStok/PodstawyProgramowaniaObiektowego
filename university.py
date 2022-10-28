@@ -2,17 +2,25 @@ from person import Person
 from student import Student
 from teacher import Teacher
 
+
+def add_students(students_list: list, no_students: int):
+    pass
+
+
+def add_teachers(teachers_list: list, no_teachers: int):
+    pass
+
+
+def printUniversity():
+    pass
+
+
 if __name__ == "__main__":
-    student0 = Student(name="Przemysław", surname="Stokłosa")
-    teacher0 = Teacher(name="Przemysław", surname="Stokłosa")
+    no_students = 10
+    no_teachers = 2
 
-    print(student0)
-    print(teacher0)
+    students_list = []
+    teachers_list = []
 
-    student0.print()
-    teacher0.print()
-
-    teacher0.f0()
-    #student0.f0()
-
-    print(student0())
+    add_students(students_list, no_students)
+    add_teachers(teachers_list, no_teachers)
