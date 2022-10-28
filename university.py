@@ -5,15 +5,21 @@ from teacher import Teacher
 
 def add_students(students_list: list, no_students: int):
     for i in range(no_students):
-        students_list.append(Student("Przemyslaw", f"Stokłosa_{i}"))
+        students_list.append(Student("Piotr", f"Stokłosa_{i}"))
+
 
 def add_teachers(teachers_list: list, no_teachers: int):
-    pass
+    for i in range(no_teachers):
+        teachers_list.append(Teacher("Przemyslaw", f"Stokłosa_{i}"))
 
 
 def printUniversity(university_name: str, students_list: list, teachers_list: list):
     print(f"Nazwa uczelni: {university_name}")
     print("Lista nauczycieli: ")
+
+    for teacher in teachers_list:
+        print(teacher)
+
     print("Lista studentów: ")
 
     for student in students_list:
