@@ -1,5 +1,5 @@
 from square import Square
-from student import Student
+from University.student import Student
 
 
 def students():
