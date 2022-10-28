@@ -6,3 +6,6 @@ class Square(Figure2D):
         super().__init__()
         self.a = a
 
+    def area(self):
+        return self.a*self.a
+
