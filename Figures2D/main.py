@@ -10,6 +10,7 @@ if __name__ == "__main__":
 
     figures_list.append(square)
     figures_list.append(circle)
+    figures_list.append(Square(1))
 
     for figure in figures_list:
         print(figure)
