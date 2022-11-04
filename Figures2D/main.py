@@ -4,9 +4,9 @@ from Figures2D.square import Square
 
 if __name__ == "__main__":
     square = Square(a=10)
-    circle = Circle()
+    circle = Circle(r=5)
 
-    figures_list:list[Figure2D] = []
+    figures_list: list[Figure2D] = []
 
     figures_list.append(square)
     figures_list.append(circle)
