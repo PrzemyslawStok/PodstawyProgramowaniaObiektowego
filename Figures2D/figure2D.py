@@ -5,5 +5,8 @@ class Figure2D():
     def area(self):
         pass
 
+    def perimeter(self):
+        pass
+
     def __str__(self):
-        return f"powierzchnia ({self.name}): {self.area()}"
+        return f"powierzchnia ({self.name}): {self.area()}, obwód: {self.perimeter()}"
