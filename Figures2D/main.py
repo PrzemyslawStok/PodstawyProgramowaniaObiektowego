@@ -7,7 +7,7 @@ from Figures2D.triangle import Triangle
 def addArea(figures_list: list[Figure2D]) -> float:
     areaSum = 0
     for figure in figures_list:
-        area = figure.area()
+        areaSum += figure.area()
 
     return areaSum
 
