@@ -5,7 +5,9 @@ from Figures2D.triangle import Triangle
 
 
 def addArea(figures_list: list[Figure2D]) -> float:
-    pass
+    areaSum = 0
+    for figure in figures_list:
+        pass
 
 
 if __name__ == "__main__":
@@ -25,4 +27,4 @@ if __name__ == "__main__":
     for figure in figures_list:
         print(figure)
 
-    print(f"sumaryczne pole powierzchni wynosi: {addArea(figures_list)}")
+    print(f"Sumaryczne pole powierzchni wynosi: {addArea(figures_list)}")
