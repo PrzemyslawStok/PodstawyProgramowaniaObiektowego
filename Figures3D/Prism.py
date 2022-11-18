@@ -3,6 +3,7 @@ from Figures3D.Figure3D import Figure3D
 
 class Prism(Figure3D):
     def __init__(self, base: Figure2D, h: float, name: str = None):
+        super().__init__()
         self.name = name
         self.base = base
         self.h = h
