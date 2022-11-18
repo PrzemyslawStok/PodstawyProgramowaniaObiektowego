@@ -1,9 +1,15 @@
 from Figures3D.Cone import Cone
 from Figures3D.Cylinder import Cylinder
+from Figures3D.Figure3D import Figure3D
 
 if __name__ == "__main__":
     cylinder = Cylinder(r=1, h=1)
-    stozek = Cone()
+    cone = Cone(r=1, h=1)
 
-    print(f"Objętość {cylinder.name} wynosi: {cylinder.volume()}")
-    print(f"Objętość {stozek.name} wynosi: {stozek.volume()}")
+    figure3d_list: list[Figure3D] = []
+    figure3d_list.append(cylinder)
+    figure3d_list.append(cone)
+
+    for figure3d in figure3d_list:
+        print(f"Objętość {figure3d.name} wynosi: {figure3d.volume()}")
+
