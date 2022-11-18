@@ -3,6 +3,9 @@ from Figures2D.figure2D import Figure2D
 from Figures2D.square import Square
 from Figures2D.triangle import Triangle
 
+def addArea()->float:
+    pass
+
 if __name__ == "__main__":
     square = Square(a=10)
     circle = Circle(r=5)
@@ -12,6 +15,7 @@ if __name__ == "__main__":
     figures_list.append(square)
     figures_list.append(circle)
     figures_list.append(Square(1))
+    figures_list.append(10)
 
     figures_list.append(Triangle(5))
     figures_list.append(Triangle(10))
