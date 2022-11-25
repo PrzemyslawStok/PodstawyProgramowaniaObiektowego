@@ -13,5 +13,7 @@ if __name__ == "__main__":
     figure3d_list.append(cone)
     figure3d_list.append(cube)
 
+    print(Figure3D.info())
+
     for figure3d in figure3d_list:
         print(f"Objętość {figure3d.name} wynosi: {figure3d.volume()}")

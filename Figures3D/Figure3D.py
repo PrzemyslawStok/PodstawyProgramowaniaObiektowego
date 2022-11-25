@@ -7,3 +7,7 @@ class Figure3D:
 
     def volume(self):
         pass
+
+    @staticmethod
+    def info():
+        return "info: figure3d"
