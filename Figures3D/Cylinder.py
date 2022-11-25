@@ -6,4 +6,4 @@ class Cylinder(Prism):
     def __init__(self, r: float, h: float):
         self.name = "Cylinder"
         self.base = Circle(r)
-        super().__init__(self.base, h)
+        super().__init__(self.base, h, name=self.name)
