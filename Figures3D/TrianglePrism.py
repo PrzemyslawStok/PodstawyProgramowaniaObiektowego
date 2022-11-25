@@ -1,0 +1,2 @@
+class TrianglePrism():
+    pass
