@@ -6,7 +6,7 @@ from Figures3D.Figure3D import Figure3D
 if __name__ == "__main__":
     cylinder = Cylinder(r=1, h=1)
     cone = Cone(r=1, h=1)
-    cube = Cube()
+    cube = Cube(a=5)
 
     figure3d_list: list[Figure3D] = []
     figure3d_list.append(cylinder)
