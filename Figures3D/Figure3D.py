@@ -19,4 +19,4 @@ class Figure3D:
 
     @staticmethod
     def getFiguresList():
-        pass
+        return Figure3D.figuresList

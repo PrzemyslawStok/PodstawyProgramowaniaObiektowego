@@ -22,3 +22,5 @@ if __name__ == "__main__":
 
     Figure3D.info()
     cube.info()
+
+    print(Figure3D.getFiguresList())
