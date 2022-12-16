@@ -4,7 +4,9 @@ from Figures3D.Cylinder import Cylinder
 from Figures3D.Figure3D import Figure3D
 
 if __name__ == "__main__":
+    print(Figure3D.no)
     cylinder = Cylinder(r=1, h=1)
+    print(Figure3D.no)
     cone = Cone(r=1, h=1)
     cube = Cube(a=5)
 
@@ -17,3 +19,6 @@ if __name__ == "__main__":
 
     for figure3d in figure3d_list:
         print(f"Objętość {figure3d.name} wynosi: {figure3d.volume()}")
+
+    Figure3D.info()
+    cube.info()
